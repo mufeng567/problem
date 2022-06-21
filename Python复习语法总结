@@ -1,0 +1,103 @@
+python语法学习
+
+
+
+python语法
+使用新行来完成命令，没有括号好分号，python用缩进和空格来表示所用域，比如循环，函数和类
+
+
+Python是一门解释性语言
+
+变量
+python可以直接对变量赋值，变量可以不声明，在第一次赋值时被创建。
+变量不需要用任何特定类型声明，甚至可以在设置后更改类型
+x=4
+x=‘aaa’
+
+
+变量强制转换
+x=str(3)
+Y=int(3)
+x=float(3)
+获取type()函数可以获取变量的数据类型
+
+
+单引号和双引号都可以声明字符串变量
+
+
+变量名区分大小写，必须以字母下划线开头
+
+
+多个变量分配多个数值
+x,y,z=“orange”,”banana”,”cherry”
+
+拆分集合
+fritus=[“apple”,””banana,”cherry”]
+x,y,z=fritus
+
+输出变量可以在print中连接，但是int不能和str连接
+
+
+用户输入3.7和2.7略有不同
+3.7 input
+2.7 raw_input
+
+
+在函数外部创建的变量是全局变量，也可以在函数内用global定义全局变量
+
+
+内置数据类型
+文本类型  str
+数字类型  int，float，complex
+序列类型  list，tuple，range
+映射类型  dict。字典型
+集合类型   set，frozenset
+布尔类型   bool
+二进制类型  bytes，bytearray，memoryview
+
+定义数据时也可以用类似构造函数声明
+
+
+浮点包含一位或者多位小数
+复数是有实部和虚部
+
+
+
+字符串
+Python中的字符串也可以当作数组，以数组的方式进行访问元素
+Python没有char类型，单一一个字符也是一个字符串
+
+遍历字符串
+for x in “banana”
+print(x)
+字符串是用len()函数来获取字符串的长度
+
+in()可以看某个关键字是否在里面
+
+
+字符串切片
+b=“hello world”
+b[2:5]. 要头不要尾
+
+可以通过负索引打印
+
+b.lower()可以转小写
+
+A.replace() 字符串替换
+
+A.strip() 删除前后空格
+
+A.split(‘,’)拆分字符串 
+
+可以用+连接字符串
+
+
+可以通过format()方法来接受传递参数，格式化他们，并且在字符串中{}占位符
+
+
+
+
+
+
+python注释，以#开头
+
